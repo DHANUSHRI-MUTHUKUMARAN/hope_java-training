@@ -1,7 +1,6 @@
 class Solution {
     public String maximumOddBinaryNumber(String s) {
         int one=0;
-        int zero=0;
         for(int i=0;i<s.length();i++)
         {
             char c=s.charAt(i);
@@ -11,7 +10,6 @@ class Solution {
             }
             else
             {
-                zero++;
             }
         }
         String ans="";

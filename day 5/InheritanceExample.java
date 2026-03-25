@@ -1,4 +1,4 @@
-package day_5;
+
 
 class User {
     String name;

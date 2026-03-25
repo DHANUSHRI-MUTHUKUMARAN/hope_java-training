@@ -1,4 +1,4 @@
-package day_5;
+
 public class LC_1041 {
    class Solution {
     public boolean isRobotBounded(String instructions) {
