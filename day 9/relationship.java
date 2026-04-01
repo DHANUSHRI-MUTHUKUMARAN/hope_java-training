@@ -6,7 +6,7 @@ class Battery{ //parent class
 class Remote{ // child class
     Battery miniBattery = new Battery(); //obj of the parent class in child class and has a relationship
     Remote(){
-        miniBattery = new
+        miniBattery = new Battery();
     }
     public void changeChannel(){ //method of the child class
         miniBattery.powesupply();// calling the method -> parent class method in child class method

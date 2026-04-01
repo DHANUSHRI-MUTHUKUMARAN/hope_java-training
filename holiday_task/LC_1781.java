@@ -14,8 +14,8 @@ class Solution {
 
                 for (int k = 0; k < 26; k++) {
                     if (freq[k] > 0) {
-                        maxFreq = Math.max(maxFreq, freq[k]);
-                        minFreq = Math.min(minFreq, freq[k]);
+                        if (freq[k] > maxFreq) maxFreq = freq[k];
+                        if (freq[k] < minFreq) minFreq = freq[k];
                     }
                 }
 

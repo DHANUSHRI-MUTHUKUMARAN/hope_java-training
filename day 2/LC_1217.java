@@ -13,6 +13,6 @@ class LC_1217 {
                 odd++;
             }
         }
-        return Math.min(odd,even);
+        return odd < even ? odd : even;
     }
 }

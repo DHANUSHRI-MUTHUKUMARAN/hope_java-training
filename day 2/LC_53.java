@@ -4,8 +4,9 @@ class LC_53 {
         int max=nums[0];
         for(int i=1;i<nums.length;i++)
         {
-            curr=Math.max(nums[i],curr+nums[i]);
-            max=Math.max(curr,max);
+            curr=curr+nums[i];
+            if(nums[i]>curr) curr=nums[i];
+            if(curr>max) max=curr;
         }
         return max;
     }
