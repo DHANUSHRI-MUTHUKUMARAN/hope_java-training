@@ -1,0 +1,39 @@
+expection handling  -> thing that distrupts the nrml flow of prog 
+java.lang.object 
+        |
+        v
+    throwable 
+----------------------------------------------------------
+|                                                          |
+v                                                          v
+errror (System lvl error)                               exception (programs or environment around causing error)
+** developers can't handle                              ** developers must handle
+-> stack overflow errror                                            |
+-> out of memory errror                                ------------------------------
+->virtual machine error                                |                            |
+                                                       v                            v
+                                                checked exception           unchecked exception
+                                                (compile time)              (run time exception)
+                                                ** IO exception             ** array out of bound
+                                                **File not found            ** Arithmetic exception
+                                                    exception               ** Null pointer exception 
+
+try -> Excute the risky part of the code
+catch -> work when risky part of code fails
+finaly -> Always execute at last
+throw -> used to manually creatig 
+throws -> used to declare the exception that a method can throw
+
+task
+E commerce order system
+design system where user places an order, while ordering system must handle failure using exception handling
+
+1) prod out of stock 
+2) payment failed 
+3) oreder processing failed 
+
+classes 
+product(name,stock,price)
+user(name,address)
+order(product,user,quantity)
+orderservice (place order,order)
