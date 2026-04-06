@@ -1,0 +1,32 @@
+wrapper class
+ -> autoboxing : int -> Integer ----
+                                    |-> ** compiler converts during compilation
+ -> unboxing -> Integer -> int -----
+
+ ->vint a = 8; -> stack
+ -> Integer b = new Integer(a);
+    Integer b = Integer.valueof(0) ->heap
+
+    -> Integer range from -128 to 127 does not create new object 
+
+    int[] arr = new int[]; // primitive -> faster
+    Arraylist<Integer> list = new Arraylist<>() -> slower
+    list.add(10) // autoboxing
+    int i = list.get(0); //unboxing
+
+packages -> organizes the class and interace into a hierarchical structure
+         -> folder for classes 
+         -> types -> built in packages
+                  -> user defined packages -> reverse domaining names
+
+task - E commerce packages
+com E commerce
+    |- User(name ,address)                        - |
+    |- product(name,price)                          |
+    |- order (user,product,quantity)                | -> com.ecommerce
+    |- order service(order) -> service              |    
+    |- main -> main                               - |    
+
+    op user name product name quantity total price 
+
+given a string s return the longest palindrome      
