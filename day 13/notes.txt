@@ -1,0 +1,36 @@
+iterable - collection -> list -> arraylist
+                              -> linkedlist vector ->stack
+                      -> queue ->dequeue
+                      -> set ->hash set
+                            -> tree set
+
+class -> classinterface -> interface-> extends
+
+compare to array list have
+*ez insertion, deletion
+*dynamic resizing
+*inbuilt methods
+*stores wrapper class +generies -> strict datatyoe checking
+=> default size:10
+    new size => 10+(10/2) = 15 formula = old+(old/2)
+
+LIST -> l = newList<>();
+        ladd(88);
+        l.add("word"); // complilation error
+        int a = ;.get(0);
+        int b=l.get(1);
+
+arraylist ->ordered data
+          -> index based accessing
+          -> can store duplicates
+
+methods ** add()
+        ** get()
+        ** remove()
+        ** removeAll()
+        **set()
+        **contains()
+        **clear()
+
+Collections.sort()
+Collections.reverse()

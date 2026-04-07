@@ -1,15 +1,14 @@
-package src.com.ecommerce.model;
-public class Order{
+public class ecomerce{
     public User user;
     public Product product;
     public int quantity;
-    public Order(User user, Product product, int quantity) {
+    public ecomerce(User user, Product product, int quantity) {
         this.user = user;
         this.product = product;
         this.quantity = quantity;
     }
 }
-public class Product{
+class Product{
     public String name;
     public double price;
     public int stock;
@@ -19,7 +18,7 @@ public class Product{
         this.stock = stock;
     }
 }
-public class User{
+class User{
     public String name;
     public String address;
     public User(String name, String address) {  
@@ -28,8 +27,8 @@ public class User{
     }
 }
 
-public class OrderService {
-    public void placeOrder(Order order) throws Exception {
+class OrderService {
+    public void placeOrder(ecomerce order) throws Exception {
         if (order.product.stock < order.quantity) {
             throw new Exception("Product out of stock");
         }

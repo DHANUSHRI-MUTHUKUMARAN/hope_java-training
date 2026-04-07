@@ -7,7 +7,7 @@ class Solution {
                 return false; // can't reach this index
             }
 
-            reachable = Math.max(reachable, i + nums[i]);
+            reachable = reachable > i + nums[i] ? reachable : i + nums[i];
 
             if (reachable >= nums.length - 1) {
                 return true; // already can reach end
