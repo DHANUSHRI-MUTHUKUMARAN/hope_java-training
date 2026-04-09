@@ -4,8 +4,8 @@ public class LC_121 {
         int maxProfit = 0;
 
         for (int price: prices) {
-            min = Math.min(price, min);
-            maxProfit = Math.max(maxProfit, price - min);
+            min = java.lang.Math.min(price, min);
+            maxProfit = java.lang.Math.max(maxProfit, price - min);
         }
         return maxProfit;
     }

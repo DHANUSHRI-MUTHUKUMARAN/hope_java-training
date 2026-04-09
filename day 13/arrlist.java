@@ -1,4 +1,3 @@
-package day_13;
 import java.util.ArrayList;
 import java.util.Arrays;
 public class arrlist {

@@ -1,0 +1,62 @@
+tree set -> uses self balancing tree(red block tree) internally
+CNR (binary search tree)
+ 2
+/ \
+1 3
+PRE ORDER
+           1                   {1,2,3,4,5,6,7}
+        /    \ 
+       2      3
+     /  \    /  \
+    4    5   6   7
+
+[10,20,30,40,50]
+10                              20                         20
+    \                          /  \                       /  \
+    20                        10   30                   10    40
+      \                              \                       /  \
+      30                             40                     30   50
+        \                               \
+        40                               50 
+          \
+            50
+              
+add()
+remove()
+container()
+.first() -> smaller in tree
+.last() -> largest in tree
+.ceil() -> check highest num
+.floor() -> check lowet num
+.higher() -> highest than
+.lower() -> lowest 
+
+treeset always used to find the nearest element
+
+closet number
+arr = {10,15,20,25,40}
+int closest(int[] arr,int target)
+
+Map interface
+                |- can store duplicates
+storing in key value pairs 
+            |- unique
+studentid - name
+Map<datatype,datatype>
+hashmap 
+   |- hashcode() & equals()
+     |- to add and update
+map.put(0,(1))
+   key -|  |- value
+if key exist value will update 
+.containstay(0) -> checks the key exist or not 
+.remove() -> removing the existing key 
+map.getorDefault(0,1)
+map.put(map.getorDefault(1,0)+1)
+map.keySet() -> looping through all the keys in the map
+int [] arr = [1,2,3,1,1,1,2,4,3]
+op 1 -> 4
+   2 -> 2 
+   3 -> 2
+   4 ->1
+LC 169 383

@@ -1,4 +1,3 @@
-package day_13;
 import java.util.Arrays;
 import java.util.ArrayList;
 //remove duplcate elemnts in arraylist
