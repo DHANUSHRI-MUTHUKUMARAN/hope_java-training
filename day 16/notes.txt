@@ -1,0 +1,12 @@
+iterator
+    |- Traversing collection element by element through cursor
+** .hasOut() -> checks next element exist or not
+** .next() -> move cursor to next element
+** .remove() -> remove the element
+
+COMPARABLE interface
+    |- natural ordering - default way of shorting
+    |- comares to string
+
+Comparator
+    |-
