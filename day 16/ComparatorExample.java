@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+
 class Student{
     int id;
     String name;
@@ -27,6 +31,6 @@ public class ComparatorExample {
                 return Integer.compare(s1.mark, s2.mark);
             }
         };       
-        Collections.sort(student, (s1, s2) -> Integer.compare(s1.mark, s2.mark));
+        Collections.sort((java.util.List<T>) student, (s1, s2) -> Integer.compare(s1.mark, s2.mark));
     }
 }

@@ -1,0 +1,40 @@
+file handling
+    -> to store data permenently for later uses
+    -> to use the data between different systems
+    -> Java.io.package
+    * open
+    * create
+    * read
+    * write
+    * close
+
+I/O Streams
+                                        Byte streams(used for audio video images)
+                                            |
+                 ------------------------------------------------------------------
+                |                                                                   |
+            Input Streams                                                       Output Streams
+                |                                                                   |
+        -----------------------                                          ---------------------------
+        |                      |                                         |                          |
+     file Input          Buffered                                       file output             buffered op
+     streams             Input    
+
+
+                                
+                                
+                                character streams (text file character)
+                                                |
+                    -------------------------------------------------------------
+                    |                                                           |
+                    reader                                                   Writer
+                    |                                                           |
+            ----------------------                                   -------------------------
+            |                     |                                  |                        |
+            file reader         buffered reader                  file writer.            buffered writer 
+   
+File reader
+    .read() method -> returns ASCII values
+                   -> returns "-1" when reach the end of file 
+
+LC 771 1832 819
