@@ -1,5 +1,5 @@
 import java.util.*;
-public class Test{
+public class test{
     public  static void frequency(String s){
         Map<Character,Integer> map=new HashMap<>();
         for(char ch:s.toCharArray()){
