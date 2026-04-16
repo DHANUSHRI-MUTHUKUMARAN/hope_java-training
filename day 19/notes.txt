@@ -1,0 +1,10 @@
+Serialization
+    Product P = new Product()
+    -> obj -> byte streams -> files
+    -> converting obj into byte streams nd stroing it in 
+        file/ database to maintain the state of object 
+    -> java.io.package
+
+Deserialization
+    -> converting file -> byte streams -> object
+        using readObject() method
