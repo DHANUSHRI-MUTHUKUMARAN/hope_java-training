@@ -1,3 +1,5 @@
+import java.util.Arrays;
+
 class Solution {
     public int[][] merge(int[][] intervals) {
         Arrays.sort(intervals,(a,b) -> a[0] - b[0]); // sort intervals by start time

@@ -19,7 +19,6 @@ public class Math {
     }
 
     public static int min(int length, int length2) {
-        // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'min'");
     }
 }

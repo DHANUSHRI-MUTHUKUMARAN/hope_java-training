@@ -1,0 +1,42 @@
+Single threading
+    -> runs step by step execute one task at a time
+    Disadvantages 
+        -> takes long time
+        -> it waits untli blocking task et complete
+
+Multi-threading
+    ->run multiple parts of the program at the same time 
+    ->concurrence -> one CPU: (Switching b/w tasks)
+                    task 1 -> Task 2 -> Task 1 -> Task 2
+    -> parallelism -> multiple process
+                    task 1 ->
+                    task 2 ->
+
+Process -> Program currently running 
+        -> Process does not share data easily 
+        -> creating process is CPU heavy
+
+Thread -> Smallest unit of process that performs task 
+       -> Thread always belongs to task
+       -> multiple thread can exist inside one process 
+
+
+     thread class -> Thread class -> run() <-|
+     implements -> runnalble interface
+
+     run() -> act as nrml functionn
+     start() -> initialize thread it will call run() internally
+
+Lifecycle of Thread (state):
+    new -> runnalble -> running -> terminated
+               ^        ^
+                \      /
+                block/wait
+
+    -> new - creating new thread
+    -> runnalble - waiting queue in CPU before running
+    -> running - Thread executing on CPU 
+    -> terminated - thread completed 
+    -> block/wait state - thread paused
+                        - using sleep()
+                        - wait()
