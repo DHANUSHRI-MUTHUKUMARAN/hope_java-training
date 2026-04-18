@@ -15,7 +15,7 @@ public class ThreadExample {
         SampleThread t = new SampleThread();
         t.start(); // start the thread
         SampleThread2 t2 = new SampleThread2();
-        Thread thread = new Thread(t2);
+        Thread thread = new Thread(t2);// new state
         thread.start(); // start the thread
     }
     

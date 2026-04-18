@@ -1,0 +1,14 @@
+functional programming 
+evolution java 1 : woRA (write once read anywhere)
+                    basic features
+          java 5: for each loop, generics
+          java 7: exceptional handling
+          java 8: lambda, functional interface, stream API 
+                    modern java, less code, more flexiblie and powerful
+
+lambda function / anonymous function
+    ** () -> parameter
+    ** {} -> body
+
+    it always works with functional interface
+    ** functional interface -> interface with nly one method
