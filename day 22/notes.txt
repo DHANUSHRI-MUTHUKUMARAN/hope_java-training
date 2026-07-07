@@ -1,0 +1,24 @@
+Supplier -> an interface does not take ay input and produce a value
+         -> using get() method
+        -> eg random number
+              create new object
+
+Streams ->filter,map,reduce,collect (operation)
+        ->process the data from collections,array i/ob
+        -> sequence of element supports functional operations
+
+        java7: imperative style(loops, mutative)
+        java 8+ : declarative style, less boilerplate
+
+Sources ---------------> Intermediate operations -> terminal operations
+where data comes from    map,filter                   forEach() 
+                                                      tolist()
+map returns
+
+Employee(name,deapartment,Salary,ags)
+        (dev,HR,support)
+1) filter by department("dev")
+2)Salary greater than 50K
+3) Total Salary using sum() method
+4) Average salary average() method
+5)total count of Employee using count() method

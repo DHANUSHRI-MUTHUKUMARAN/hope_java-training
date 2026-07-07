@@ -12,3 +12,31 @@ lambda function / anonymous function
 
     it always works with functional interface
     ** functional interface -> interface with nly one method
+
+Built in functionl interface
+    1) predicate -> an interface that takes smthing nd return true or false
+     predicate<T> -> obj data type
+
+     class box{
+        object value 
+            setc 
+
+        object get 
+        return value
+     }
+     class box{
+        obj value;
+        void set (object value)
+            this.value = value;
+        object get()
+            return value;
+     }
+     main 
+        box b - new box()
+        b.set("hello");
+        String s = (string)b.get();
+
+Consumer
+ -> interface which takes input and do somthing with it and return nothing
+ -> input -> action -> return nothing
+ ex - print number updating value 
